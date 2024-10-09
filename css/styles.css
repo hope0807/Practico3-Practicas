@@ -1,45 +1,45 @@
 body {
-  background-color: rgb(255, 0, 0);  
-  font-family: Arial, sans-serif;
-    text-align: center;
+  background-color: rgb(255, 0, 0); /*establece color de fondo de la pagina en rojo*/
+  font-family: Arial, sans-serif; /*se selecciona el tipo de letra*/
+  text-align: center; /*se centra el texto horizontalmente*/       
   }
   
   #formulario {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /*crea espacio entre el formulario y el contido que sigue*/
   }
   
   #busqueda {
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid #ff0000;
+    padding: 10px; 
+    font-size: 18px; 
+    border: 1px solid #ff0000; 
     border-radius: 5px;
   }
   
   #boton-buscar {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 18px; /*establece el tamaño de fuente de 18pixeles */
     background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;/*cambia el cursor del mouse a una mano*/
   }
   
   #boton-buscar:hover {
-    background-color: #3e8e41;
+    background-color: #3e8e41; /*cambia el color del boton a verde*/
   }
   
   #grid-gifs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);/*divide en 3 columnas de igual ancho*/
     grid-gap: 10px;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px; 
+    margin: 0 auto; /*centra horizontalmente*/
   }
   
   .gif {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    width: 100%;/*ancho del gif en su 100%*/
+    height: 200px;/*altura del gif*/
+    object-fit: cover;/*ajusta la imagen para que quepa en el tamaño del contenedor sin deformarse*/
     border-radius: 10px;
   }
